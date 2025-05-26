@@ -21,10 +21,8 @@ sudo mkdir -p /etc/systemd/system/nginx.service.d
 nano /etc/systemd/system/nginx.service.d/override.conf
 ```
 Contenu fichier, CTRL + S, CTRL + X
-```
+```bash
 [Service]
-User=rpuser
-Group=rpuser
 Restart=always
 RestartSec=5s
 ```
